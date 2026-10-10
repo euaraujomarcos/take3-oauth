@@ -1,0 +1,11 @@
+{
+  "client_id": "https://euaraujomarcos.github.io/take3-oauth/client.json",
+  "client_name": "Take3 Revenue Intelligence",
+  "client_uri": "https://euaraujomarcos.github.io/take3-oauth/",
+  "redirect_uris": [
+    "http://localhost:3100/api/integrations/cardapio-web/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
